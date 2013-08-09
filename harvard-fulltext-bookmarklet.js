@@ -1,0 +1,1 @@
+location.assign(location.protocol + '//' + location.hostname + '.ezp-prod1.hul.harvard.edu' + location.pathname + location.search + location.hash);
