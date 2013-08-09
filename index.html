@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HarvardFullText - a bookmarklet for easy full text viewing.</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-42603105-1', 'github.com');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="container">
+        <div class="page-header">
+          <h3>harvard full-text bookmarklet</h3>
+        </div>
+        <br>
+        <div class="logo">
+          <img src="http://hcs.harvard.edu/~stahr/Harvard.png" alt="harvard_logo" width="169" height="200"/>
+        </div>
+        <br>
+        <br>
+        <p>JavaScript bookmarklet to simplify the processes of having to append '.ezp-prod1.hul.harvard.edu' between URLs needing Harvard site licensing (e.g. PubMed full text).</p>
+        <p>Drag this to Bookmarks Bar &rarr; <a class="btn btn-primary" href="javascript:location.assign(location.protocol+'//'+location.hostname+'.ezp-prod1.hul.harvard.edu'+location.pathname+location.search+location.hash);">
+      HarvardFullText</a></p>
+        <p>After saving the bookmarklet to the browser being used, when visiting a webpage needing Harvard PIN authentication, simply click on the bookmarklet to append the '.ezp-prod1.hul.harvard.edu' path to the URL and redirect you to the right page. This will redirect you through the Harvard PIN authentication if necessary.</p>
+        <p>Test it out at <a href=http://www.ncbi.nlm.nih.gov/pubmed/>PubMed</a></p>
+        <p><strong>Currently supports:</strong> Chrome, Safari, Firefox</p>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit"><a href="github.com/nikhilsrinivasan">Nikhil Srinivasan</a>, 2013</p>
+      </div>
+    </div>
+  </body>
+</html>
