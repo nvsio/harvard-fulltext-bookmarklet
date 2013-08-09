@@ -15,8 +15,8 @@ After saving the bookmarklet to the browser being used, when visiting a webpage 
 
 **Acknowledgements**
 ----------------------------
-* @gruber for his bookmarklet formatting script: http://daringfireball.net/2007/03/javascript_bookmarklet_builder
-* @mdo and @fat for their contributions to the Twitter Bootstrap framework
+* [@gruber](twitter.com/gruber) for his bookmarklet formatting [script](http://daringfireball.net/2007/03/javascript_bookmarklet_builder)
+* [@mdo](twitter.com/mdo) and [@fat](twitter.com/fat) for their contributions to the Twitter Bootstrap framework
 
 **Credits**
 ----------------------------
