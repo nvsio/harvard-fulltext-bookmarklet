@@ -5,7 +5,7 @@
 JavaScript bookmarklet to simplify the processes of having to append '.ezp-prod1.hul.harvard.edu' between URLs needing Harvard Site licensing (e.g. PubMed full text).
 
 #### **Install**
-Visit [nikhilsrinivasan.github.com/harvard-fulltext-bookmarklet](nikhilsrinivasan.github.com/harvard-fulltext-bookmarklet) to find the pre-compiled bookmarklet, ready for drag and drop. Otherwise compile the bookmarklet manually by following these steps:
+Visit [nikhilsrinivasan.github.io/harvard-fulltext-bookmarklet](nikhilsrinivasan.github.com/harvard-fulltext-bookmarklet) to find the pre-compiled bookmarklet, ready for drag and drop. Otherwise compile the bookmarklet manually by following these steps:
 
 1. Copy the following javascript code: javascript:location.assign(location.protocol+'//'+location.hostname+'.ezp-prod1.hul.harvard.edu'+location.pathname+location.search+location.hash);
 
